@@ -1,2 +1,2 @@
-# UC_Beta
- Urban Coalition beta software copyright 1996
+# Desk Kickers Arsenal
+ testing bed
