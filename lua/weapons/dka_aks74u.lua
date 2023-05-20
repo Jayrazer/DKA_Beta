@@ -128,10 +128,10 @@ SWEP.SprintTime				= 0.2
 --
 SWEP.RecoilUp				= 1
 SWEP.RecoilSide				= 0.8
-SWEP.RecoilPunch			= 0.5
+SWEP.RecoilPunch			= 0.25
 SWEP.RecoilSwing			= 0
 SWEP.RecoilDrift			= 0
-SWEP.RecoilDecay			= 11
+SWEP.RecoilDecay			= 25
 
 SWEP.UniversalAnimationInfo = {
 	bone = "m16_parent",
