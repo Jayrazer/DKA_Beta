@@ -7,7 +7,7 @@ SWEP.Spawnable				= true
 --
 SWEP.PrintName				= "AKS74U"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[5.45x39mm assault rifle]]
+SWEP.Description			= [[5.45x39mm Carbine]]
 SWEP.Slot					= 2
 
 --
@@ -46,12 +46,12 @@ SWEP.HoldTypeSight			= "rpg"
 SWEP.HoldTypeSprint			= "passive"
 
 local p0 = ")arccw_uc/common/"
-local p1 = ")weapons/ak/"
+local p1 = ")weapons/ak74/"
 local tail = ")/arccw_uc/common/556x45/"
 SWEP.Sound_Blast			= {
-	{ s = p1.."type56_fire_01.wav" },
-	{ s = p1.."type56_fire_02.wav" },
-	{ s = p1.."type56_fire_03.wav" }
+	{ s = p1.."aks74u_fire_01.wav" },
+	{ s = p1.."aks74u_fire_02.wav" },
+	{ s = p1.."aks74u_fire_03.wav" }
 }
 SWEP.Sound_Mech				= {
 	{ s = p1.."mech-01.ogg" },

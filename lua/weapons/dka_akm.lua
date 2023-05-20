@@ -7,7 +7,7 @@ SWEP.Spawnable				= true
 --
 SWEP.PrintName				= "AKM"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[7.62x39mm assault rifle]]
+SWEP.Description			= [[7.62x39mm Assault Rifle]]
 SWEP.Slot					= 2
 
 --
@@ -49,9 +49,9 @@ local p0 = ")arccw_uc/common/"
 local p1 = ")weapons/ak/"
 local tail = ")/arccw_uc/common/556x45/"
 SWEP.Sound_Blast			= {
-	{ s = p1.."type56_fire_01.wav" },
-	{ s = p1.."type56_fire_02.wav" },
-	{ s = p1.."type56_fire_03.wav" }
+	{ s = p1.."ak103_fire_01.wav" },
+	{ s = p1.."ak103_fire_02.wav" },
+	{ s = p1.."ak103_fire_03.wav" }
 }
 SWEP.Sound_Mech				= {
 	{ s = p1.."mech-01.ogg" },
