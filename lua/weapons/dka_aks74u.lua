@@ -8,6 +8,16 @@ SWEP.Spawnable				= true
 SWEP.PrintName				= "AKS74U"
 SWEP.Category				= "Desk Kickers"
 SWEP.Description			= [[5.45x39mm Carbine]]
+SWEP.Trivia = {
+	"Year:",
+	"1979",
+	"Mechanism:",
+	"Gas-operated rotating bolt",
+	"Country:",
+	"USSR",
+	"Manufacturer:",
+	"IZhMASh",
+}
 SWEP.Slot					= 2
 
 --
@@ -16,11 +26,7 @@ SWEP.Slot					= 2
 SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
 SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
-SWEP.ViewModelFOV			= 72
-
-SWEP.DefaultBodygroups = "0 0 0 0 0 0 0 0 0 0 0 1"
-SWEP.DefaultBodygroups = "0 3 0 0 1 4 2 7 0 0 0 2"
-SWEP.DefaultSkin = 0
+SWEP.ViewModelFOV			= 60
 
 SWEP.ActivePose = {
 	Pos = Vector( 0.5, -2, -1.75 ),
@@ -37,7 +43,7 @@ SWEP.IronsightPose = {
 	Ang = Angle( 0, 0, 0 ),
 	MidPos = Vector( -1.15, 2, -0.4 ),
 	MidAng = Angle( -0.5, 0, -6 ),
-	ViewModelFOV = 65,
+	ViewModelFOV = 60,
 	Magnification = 1.1,
 }
 
@@ -103,31 +109,28 @@ SWEP.Firemodes				= {
 	{
 		Mode = 3,
 	},
-	{
-		Mode = 1,
-	},
 }
 SWEP.SwayCorrection = 0.45
 
 SWEP.Accuracy				= 0.25
 
-SWEP.Dispersion				= 3.5
-SWEP.Dispersion_Air			= 2.5
-SWEP.Dispersion_Move		= 2.5
+SWEP.Dispersion				= 2.5
+SWEP.Dispersion_Air			= 1.5
+SWEP.Dispersion_Move		= 1
 SWEP.Dispersion_Crouch		= 0.75
 SWEP.Dispersion_Sights		= 0
 
 SWEP.SightTime				= 0.4
-SWEP.SprintTime				= 0.4
+SWEP.SprintTime				= 0.2
 
 --
 -- Recoil
 --
-SWEP.RecoilUp				= 1.2
-SWEP.RecoilSide				= 0.7
-SWEP.RecoilPunch			= 0.2
-SWEP.RecoilSwing			= 0.5
-SWEP.RecoilDrift			= .8
+SWEP.RecoilUp				= 1
+SWEP.RecoilSide				= 0.8
+SWEP.RecoilPunch			= 0.5
+SWEP.RecoilSwing			= 0
+SWEP.RecoilDrift			= 0
 SWEP.RecoilDecay			= 11
 
 SWEP.UniversalAnimationInfo = {

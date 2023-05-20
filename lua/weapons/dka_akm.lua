@@ -8,6 +8,16 @@ SWEP.Spawnable				= true
 SWEP.PrintName				= "AKM"
 SWEP.Category				= "Desk Kickers"
 SWEP.Description			= [[7.62x39mm Assault Rifle]]
+SWEP.Trivia = {
+	"Year:",
+	"1956",
+	"Mechanism:",
+	"Gas-operated rotating bolt",
+	"Country:",
+	"USSR",
+	"Manufacturer:",
+	"IZhMASh",
+}
 SWEP.Slot					= 2
 
 --
@@ -16,19 +26,15 @@ SWEP.Slot					= 2
 SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_akm.mdl"
 SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_akm.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
-SWEP.ViewModelFOV			= 72
-
-SWEP.DefaultBodygroups = "0 0 0 0 0 0 0 0 0 0 0 1"
-SWEP.DefaultBodygroups = "0 3 0 0 1 4 2 7 0 0 0 2"
-SWEP.DefaultSkin = 0
+SWEP.ViewModelFOV			= 60
 
 SWEP.ActivePose = {
 	Pos = Vector( 0.5, -2, -1.75 ),
 	Ang = Angle( 3, 0, 3 )
 }
 SWEP.CrouchPose = {
-	Pos = Vector(-2.5, -2, -1.6),
-	Ang = Angle(0, 0, -8),
+	Pos = Vector(2, 0, -1.75),
+	Ang = Angle(0, 0, 0),
 	MidPos = Vector( -0.2, 0, -0.5 ),
 	MidAng = Angle( 0, 0, 0 ),
 }
@@ -37,7 +43,7 @@ SWEP.IronsightPose = {
 	Ang = Angle( 0, 0, 0 ),
 	MidPos = Vector( -1.15, 2, -0.4 ),
 	MidAng = Angle( -0.5, 0, -6 ),
-	ViewModelFOV = 65,
+	ViewModelFOV = 60,
 	Magnification = 1.1,
 }
 
@@ -91,7 +97,7 @@ SWEP.CameraCorrection					= Angle( 0, 0, 0 )
 --
 -- Functionality
 --
-SWEP.Primary.Ammo			= "smg1"
+SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.ClipSize		= 30
 SWEP.ChamberSize			= 0
 SWEP.Delay					= ( 60 / 600 )
@@ -111,9 +117,9 @@ SWEP.SwayCorrection = 0.45
 
 SWEP.Accuracy				= 0.25
 
-SWEP.Dispersion				= 3.5
-SWEP.Dispersion_Air			= 2.5
-SWEP.Dispersion_Move		= 2.5
+SWEP.Dispersion				= 2.5
+SWEP.Dispersion_Air			= 1.5
+SWEP.Dispersion_Move		= 1
 SWEP.Dispersion_Crouch		= 0.75
 SWEP.Dispersion_Sights		= 0
 
@@ -124,10 +130,10 @@ SWEP.SprintTime				= 0.4
 -- Recoil
 --
 SWEP.RecoilUp				= 1.2
-SWEP.RecoilSide				= 0.7
-SWEP.RecoilPunch			= 0.2
-SWEP.RecoilSwing			= 0.5
-SWEP.RecoilDrift			= .8
+SWEP.RecoilSide				= 1
+SWEP.RecoilPunch			= 0.5
+SWEP.RecoilSwing			= 0
+SWEP.RecoilDrift			= 0
 SWEP.RecoilDecay			= 11
 
 SWEP.UniversalAnimationInfo = {
@@ -229,7 +235,19 @@ SWEP.Animations				= {
 	},
 }
 
-SWEP.Attachments = {
-}
+--SWEP.Attachments = {
+	--{
+		--Name = "Attachment",
+		--SortOrder = 1.0,
+	--},
+	--{
+		--Name = "Module",
+		--SortOrder = 2.0,
+	--},
+	--{
+		--Name = "Specialization",
+		--SortOrder = 3.0,
+	--},
+--}
 
 SWEP.Elements = {}
