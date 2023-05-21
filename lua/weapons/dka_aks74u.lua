@@ -112,11 +112,11 @@ SWEP.Firemodes				= {
 }
 SWEP.SwayCorrection = 0.45
 
-SWEP.Accuracy				= 0.25
+SWEP.Accuracy				= 0
 
-SWEP.Dispersion				= 2.5
+SWEP.Dispersion				= 2
 SWEP.Dispersion_Air			= 1.5
-SWEP.Dispersion_Move		= 1
+SWEP.Dispersion_Move		= 1.5
 SWEP.Dispersion_Crouch		= 0.75
 SWEP.Dispersion_Sights		= 0
 
@@ -127,11 +127,11 @@ SWEP.SprintTime				= 0.2
 -- Recoil
 --
 SWEP.RecoilUp				= 1
-SWEP.RecoilSide				= 0.8
-SWEP.RecoilPunch			= 0.25
+SWEP.RecoilSide				= 0.5
+SWEP.RecoilPunch			= 1
 SWEP.RecoilSwing			= 0
-SWEP.RecoilDrift			= 0
-SWEP.RecoilDecay			= 25
+SWEP.RecoilDrift			= 0.75
+SWEP.RecoilDecay			= 10
 
 SWEP.UniversalAnimationInfo = {
 	bone = "m16_parent",
