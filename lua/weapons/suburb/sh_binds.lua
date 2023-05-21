@@ -33,13 +33,13 @@ hook.Add( "StartCommand", "Suburb_StartCommand", function( ply, cmd )
 					wep:ToggleCustomize()
 				end
 
-				if cmd:GetImpulse() == 152 then
-					if ply.AttachmentRadial then
-						ply.AttachmentRadial = false
-					else
-						ply.AttachmentRadial = true
-					end
-				end
+				--if cmd:GetImpulse() == 152 then
+					--if ply.AttachmentRadial then
+						--ply.AttachmentRadial = false
+					--else
+						--ply.AttachmentRadial = true
+					--end
+				--end
 			end
 			--if SERVER and ply:FlashlightIsOn() then ply:Flashlight() end
 		end

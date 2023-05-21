@@ -7,16 +7,20 @@ SWEP.Spawnable				= true
 --
 SWEP.PrintName				= "M4"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[5.56x45mm Carbine]]
+SWEP.Description			= [[Task Force Carbine]]
 SWEP.Trivia = {
-	"Year:",
-	"1993",
+	"Caliber:",
+	"5.56x45mm NATO",
+	"Rate of Fire:",
+	"850 RPM",
 	"Mechanism:",
 	"Gas-operated",
-	"Country:",
-	"USA",
+	"Country of origin:",
+	"United States",
 	"Manufacturer:",
-	"Colt"
+	"Colt's Manufacturing Company",
+	"Year introduced:",
+	"1993",
 }
 SWEP.Slot					= 2
 
@@ -100,7 +104,7 @@ SWEP.CameraCorrection					= Angle( 0, 0, 0 )
 SWEP.Primary.Ammo			= "smg1"
 SWEP.Primary.ClipSize		= 30
 SWEP.ChamberSize			= 1
-SWEP.Delay					= ( 60 / 800 )
+SWEP.Delay					= ( 60 / 850 )
 
 SWEP.Firemodes				= {
 	{

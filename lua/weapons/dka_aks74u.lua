@@ -7,16 +7,20 @@ SWEP.Spawnable				= true
 --
 SWEP.PrintName				= "AKS74U"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[5.45x39mm Carbine]]
+SWEP.Description			= [[Insurgent Carbine]]
 SWEP.Trivia = {
-	"Year:",
-	"1979",
+	"Caliber:",
+	"5.45x39mm Soviet",
+	"Rate of Fire:",
+	"700 RPM",
 	"Mechanism:",
 	"Gas-operated",
-	"Country:",
-	"USSR",
+	"Country of origin:",
+	"Soviet Union",
 	"Manufacturer:",
-	"IZhMASh"
+	"Kalashnikov Concern / Tula Arsenal",
+	"Year introduced:",
+	"1979"
 }
 SWEP.Slot					= 2
 
