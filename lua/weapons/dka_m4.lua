@@ -5,26 +5,26 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "AKS74U"
+SWEP.PrintName				= "M4"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[5.45x39mm Carbine]]
+SWEP.Description			= [[5.56x45mm Carbine]]
 SWEP.Trivia = {
 	"Year:",
-	"1979",
+	"1987",
 	"Mechanism:",
-	"Gas-operated, rotating bolt",
+	"Gas-operated, closed rotating bolt",
 	"Country:",
-	"USSR",
+	"USA",
 	"Manufacturer:",
-	"IZhMASh",
+	"Colt",
 }
 SWEP.Slot					= 2
 
 --
 -- Appearance
 --
-SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
-SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
+SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
+SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
 SWEP.ViewModelFOV			= 60
 
@@ -100,7 +100,7 @@ SWEP.CameraCorrection					= Angle( 0, 0, 0 )
 SWEP.Primary.Ammo			= "smg1"
 SWEP.Primary.ClipSize		= 30
 SWEP.ChamberSize			= 1
-SWEP.Delay					= ( 60 / 700 )
+SWEP.Delay					= ( 60 / 800 )
 
 SWEP.Firemodes				= {
 	{
@@ -126,7 +126,7 @@ SWEP.SprintTime				= 0.2
 --
 -- Recoil
 --
-SWEP.RecoilUp				= 1
+SWEP.RecoilUp				= 0.8
 SWEP.RecoilSide				= 0.25
 SWEP.RecoilPunch			= 1
 SWEP.RecoilSwing			= 0

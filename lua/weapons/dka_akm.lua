@@ -12,7 +12,7 @@ SWEP.Trivia = {
 	"Year:",
 	"1956",
 	"Mechanism:",
-	"Gas-operated rotating bolt",
+	"Gas-operated, rotating bolt",
 	"Country:",
 	"USSR",
 	"Manufacturer:",
@@ -99,7 +99,7 @@ SWEP.CameraCorrection					= Angle( 0, 0, 0 )
 --
 SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.ClipSize		= 30
-SWEP.ChamberSize			= 0
+SWEP.ChamberSize			= 1
 SWEP.Delay					= ( 60 / 600 )
 
 SWEP.Firemodes				= {
