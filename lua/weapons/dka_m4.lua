@@ -52,37 +52,37 @@ SWEP.HoldTypeSight			= "rpg"
 SWEP.HoldTypeSprint			= "passive"
 
 local p0 = ")arccw_uc/common/"
-local p1 = ")weapons/ak74/"
+local p1 = ")weapons/m4/"
 local tail = ")/arccw_uc/common/556x45/"
 SWEP.Sound_Blast			= {
-	{ s = p1.."aks74u_fire_01.wav" },
-	{ s = p1.."aks74u_fire_02.wav" },
-	{ s = p1.."aks74u_fire_03.wav" }
+	{ s = p1.."m4_fire_01.wav" },
+	{ s = p1.."m4_fire_02.wav" },
+	{ s = p1.."m4_fire_03.wav" }
 }
-SWEP.Sound_Mech				= {
-	{ s = p1.."mech-01.ogg" },
-	{ s = p1.."mech-02.ogg" },
-	{ s = p1.."mech-03.ogg" },
-	{ s = p1.."mech-04.ogg" },
-	{ s = p1.."mech-05.ogg" },
-	{ s = p1.."mech-06.ogg" },
-}
-SWEP.Sound_TailEXT				= {
-	{ s = tail.."fire-dist-556x45-rif-ext-01.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-ext-02.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-ext-03.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-ext-04.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-ext-05.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-ext-06.ogg" },
-}
-SWEP.Sound_TailINT				= {
-	{ s = tail.."fire-dist-556x45-rif-int-01.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-int-02.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-int-03.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-int-04.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-int-05.ogg" },
-	{ s = tail.."fire-dist-556x45-rif-int-06.ogg" },
-}
+--SWEP.Sound_Mech				= {
+	--{ s = p1.."mech-01.ogg" },
+	--{ s = p1.."mech-02.ogg" },
+	--{ s = p1.."mech-03.ogg" },
+	--{ s = p1.."mech-04.ogg" },
+	--{ s = p1.."mech-05.ogg" },
+	--{ s = p1.."mech-06.ogg" },
+--}
+--SWEP.Sound_TailEXT				= {
+	--{ s = tail.."fire-dist-556x45-rif-ext-01.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-ext-02.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-ext-03.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-ext-04.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-ext-05.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-ext-06.ogg" },
+--}
+--SWEP.Sound_TailINT				= {
+	--{ s = tail.."fire-dist-556x45-rif-int-01.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-int-02.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-int-03.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-int-04.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-int-05.ogg" },
+	--{ s = tail.."fire-dist-556x45-rif-int-06.ogg" },
+--}
 
 SWEP.MuzzleEffect						= "muzzleflash_1"
 SWEP.QCA_Muzzle							= 1
