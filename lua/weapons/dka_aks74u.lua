@@ -12,11 +12,11 @@ SWEP.Trivia = {
 	"Year:",
 	"1979",
 	"Mechanism:",
-	"Gas-operated, rotating bolt",
+	"Gas-operated",
 	"Country:",
 	"USSR",
 	"Manufacturer:",
-	"IZhMASh",
+	"IZhMASh"
 }
 SWEP.Slot					= 2
 

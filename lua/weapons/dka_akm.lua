@@ -12,11 +12,11 @@ SWEP.Trivia = {
 	"Year:",
 	"1956",
 	"Mechanism:",
-	"Gas-operated, rotating bolt",
+	"Gas-operated",
 	"Country:",
 	"USSR",
 	"Manufacturer:",
-	"IZhMASh",
+	"IZhMASh"
 }
 SWEP.Slot					= 2
 
@@ -33,8 +33,8 @@ SWEP.ActivePose = {
 	Ang = Angle( 3, 0, 3 )
 }
 SWEP.CrouchPose = {
-	Pos = Vector(2, 0, -1.75),
-	Ang = Angle(0, 0, 0),
+	Pos = Vector(-2.5, -2, -1.6),
+	Ang = Angle(0, 0, -8),
 	MidPos = Vector( -0.2, 0, -0.5 ),
 	MidAng = Angle( 0, 0, 0 ),
 }

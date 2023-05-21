@@ -10,13 +10,13 @@ SWEP.Category				= "Desk Kickers"
 SWEP.Description			= [[5.56x45mm Carbine]]
 SWEP.Trivia = {
 	"Year:",
-	"1987",
+	"1993",
 	"Mechanism:",
-	"Gas-operated, closed rotating bolt",
+	"Gas-operated",
 	"Country:",
 	"USA",
 	"Manufacturer:",
-	"Colt",
+	"Colt"
 }
 SWEP.Slot					= 2
 

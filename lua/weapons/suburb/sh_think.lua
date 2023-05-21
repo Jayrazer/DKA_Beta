@@ -26,7 +26,7 @@ function SWEP:Think()
 				end
 			end
 		end
-
+-- This is the aiming code.  Tweak this so that it calls the weapon's altfire, whatever it may be (probably can be done in sh_binds and have IN_ATTACK2 call a new command).
 		--if self:GetOwner():GetInfoNum("uc_cl_aimtoggle", 0) == 0 then
 			--self:SetUserSight( self:GetOwner():KeyDown(IN_ATTACK2) )
 		--else

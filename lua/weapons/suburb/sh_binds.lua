@@ -21,9 +21,9 @@ hook.Add( "StartCommand", "Suburb_StartCommand", function( ply, cmd )
 					fmdebounce = false
 				end
 
-				if cmd:GetImpulse() == 100 then
-					cmd:SetImpulse(152)
-				end
+				--if cmd:GetImpulse() == 100 then
+					--cmd:SetImpulse(152)
+				--end
 
 				if cmd:GetImpulse() == 150 then
 					wep:SwitchFiremode()
@@ -41,7 +41,7 @@ hook.Add( "StartCommand", "Suburb_StartCommand", function( ply, cmd )
 					end
 				end
 			end
-			if SERVER and ply:FlashlightIsOn() then ply:Flashlight() end
+			--if SERVER and ply:FlashlightIsOn() then ply:Flashlight() end
 		end
 	end
 end)
