@@ -5,30 +5,30 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "AKM"
+SWEP.PrintName				= "PM63"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Insurgent Assault Rifle]]
+SWEP.Description			= [[Insurgent SMG]]
 SWEP.Trivia = {
 	"Caliber:",
-	"7.62x39mm Soviet",
+	"9x18mm Makarov",
 	"Rate of Fire:",
-	"600 RPM",
+	"650 RPM",
 	"Mechanism:",
-	"Gas-operated",
+	"Blowback",
 	"Country of origin:",
-	"Soviet Union",
+	"Poland",
 	"Manufacturer:",
-	"Kalashnikov Concern",
+	"FB Radom",
 	"Year introduced:",
-	"1959"
+	"1963"
 }
 SWEP.Slot					= 2
 
 --
 -- Appearance
 --
-SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_akm.mdl"
-SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_akm.mdl"
+SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
+SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
 SWEP.ViewModelFOV			= 60
 
@@ -51,17 +51,17 @@ SWEP.IronsightPose = {
 	Magnification = 1.1,
 }
 
-SWEP.HoldTypeHip			= "ar2"
+SWEP.HoldTypeHip			= "smg"
 SWEP.HoldTypeSight			= "rpg"
 SWEP.HoldTypeSprint			= "passive"
 
 local p0 = ")arccw_uc/common/"
-local p1 = ")weapons/ak/"
+local p1 = ")weapons/pm63/"
 local tail = ")/arccw_uc/common/556x45/"
 SWEP.Sound_Blast			= {
-	{ s = p1.."ak103_fire_01.wav" },
-	{ s = p1.."ak103_fire_02.wav" },
-	{ s = p1.."ak103_fire_03.wav" }
+	{ s = p1.."pm63_fire_01.wav" },
+	{ s = p1.."pm63_fire_02.wav" },
+	{ s = p1.."pm63_fire_03.wav" }
 }
 --SWEP.Sound_Mech				= {
 	--{ s = p1.."mech-01.ogg" },
@@ -101,10 +101,10 @@ SWEP.CameraCorrection					= Angle( 0, 0, 0 )
 --
 -- Functionality
 --
-SWEP.Primary.Ammo			= "ar2"
-SWEP.Primary.ClipSize		= 30
-SWEP.ChamberSize			= 1
-SWEP.Delay					= ( 60 / 600 )
+SWEP.Primary.Ammo			= "pistol"
+SWEP.Primary.ClipSize		= 25
+SWEP.ChamberSize			= 0
+SWEP.Delay					= ( 60 / 650 )
 
 SWEP.Firemodes				= {
 	{
@@ -112,9 +112,6 @@ SWEP.Firemodes				= {
 	},
 	{
 		Mode = 3,
-	},
-	{
-		Mode = 1,
 	},
 }
 SWEP.SwayCorrection = 0.45
@@ -128,13 +125,13 @@ SWEP.Dispersion_Crouch		= 0.75
 SWEP.Dispersion_Sights		= 0
 
 SWEP.SightTime				= 0.4
-SWEP.SprintTime				= 0.4
+SWEP.SprintTime				= 0.2
 
 --
 -- Recoil
 --
-SWEP.RecoilUp				= 1.5
-SWEP.RecoilSide				= 0.5
+SWEP.RecoilUp				= 1
+SWEP.RecoilSide				= 0.25
 SWEP.RecoilPunch			= 1
 SWEP.RecoilSwing			= 0
 SWEP.RecoilDrift			= 0.75
@@ -149,9 +146,9 @@ SWEP.UniversalAnimationInfo = {
 --
 -- Damage
 --
-SWEP.DamageNear				= 33
+SWEP.DamageNear				= 25
 SWEP.RangeNear				= 50
-SWEP.DamageFar				= 15
+SWEP.DamageFar				= 10
 SWEP.RangeFar				= 300
 SWEP.Force					= 5
 SWEP.Penetration			= 2
@@ -239,19 +236,7 @@ SWEP.Animations				= {
 	},
 }
 
---SWEP.Attachments = {
-	--{
-		--Name = "Attachment",
-		--SortOrder = 1.0,
-	--},
-	--{
-		--Name = "Module",
-		--SortOrder = 2.0,
-	--},
-	--{
-		--Name = "Specialization",
-		--SortOrder = 3.0,
-	--},
---}
+SWEP.Attachments = {
+}
 
 SWEP.Elements = {}

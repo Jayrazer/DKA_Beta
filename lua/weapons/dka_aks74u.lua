@@ -18,7 +18,7 @@ SWEP.Trivia = {
 	"Country of origin:",
 	"Soviet Union",
 	"Manufacturer:",
-	"Kalashnikov Concern / Tula Arsenal",
+	"Kalashnikov Concern",
 	"Year introduced:",
 	"1979"
 }

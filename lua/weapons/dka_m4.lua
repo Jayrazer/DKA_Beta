@@ -18,7 +18,7 @@ SWEP.Trivia = {
 	"Country of origin:",
 	"United States",
 	"Manufacturer:",
-	"Colt's Manufacturing Company",
+	"Colt",
 	"Year introduced:",
 	"1993",
 }
