@@ -27,13 +27,13 @@ SWEP.Slot					= 2
 --
 -- Appearance
 --
-SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
-SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
+SWEP.ViewModel				= "models/weapons/dka/c_dka_pist_1911.mdl"
+SWEP.WorldModel				= "models/weapons/dka/c_dka_pist_1911.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
 SWEP.ViewModelFOV			= 60
 
 SWEP.ActivePose = {
-	Pos = Vector( 0.5, -2, -1.75 ),
+	Pos = Vector( 0.5, 2, -0.75 ),
 	Ang = Angle( 3, 0, 3 )
 }
 SWEP.CrouchPose = {
@@ -95,8 +95,8 @@ SWEP.ShellModel							= "models/weapons/arccw/uc_shells/556x45.mdl"
 SWEP.ShellScale							= 0.5
 SWEP.QCA_Case							= 2
 
-SWEP.QCA_Camera							= 0
-SWEP.CameraCorrection					= Angle( 0, 0, 0 )
+SWEP.QCA_Camera							= 3
+SWEP.CameraCorrection					= Angle( 0, -90, -90 )
 
 --
 -- Functionality
@@ -190,7 +190,7 @@ SWEP.Animations				= {
 	},
 	["reload"]	= {
 		Source = "reload",
-		Time = 2.4,
+		Time = 70/40,
 		Events = {
 			{ t = 0.1,			s = p0.."magpouch_gear.ogg" },
 			{ t = 0.2,			s = p1.."magout_empty.ogg" },
@@ -211,7 +211,7 @@ SWEP.Animations				= {
 	},
 	["reload_empty"] = {
 		Source = "reload_empty",
-		Time = 2.9,
+		Time = 100/40,
 		Events = {
 			{ t = 0.1,			s = p0.."magpouch_gear.ogg" },
 			{ t = 0.2,			s = p1.."magout_empty.ogg" },
