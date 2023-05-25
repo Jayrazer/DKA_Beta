@@ -115,10 +115,10 @@ SWEP.SwayCorrection = 0.45
 
 SWEP.Accuracy				= 0
 
-SWEP.Dispersion				= 2
-SWEP.Dispersion_Air			= 1.5
-SWEP.Dispersion_Move		= 1.5
-SWEP.Dispersion_Crouch		= 0.75
+SWEP.Dispersion				= 1.75
+SWEP.Dispersion_Air			= 1.25
+SWEP.Dispersion_Move		= 1
+SWEP.Dispersion_Crouch		= 0.5
 SWEP.Dispersion_Sights		= 0
 
 SWEP.SightTime				= 0.4
@@ -127,7 +127,7 @@ SWEP.SprintTime				= 0.2
 --
 -- Recoil
 --
-SWEP.RecoilUp				= 1
+SWEP.RecoilUp				= 1.5
 SWEP.RecoilSide				= 0.25
 SWEP.RecoilPunch			= 1
 SWEP.RecoilSwing			= 0
@@ -143,9 +143,9 @@ SWEP.UniversalAnimationInfo = {
 --
 -- Damage
 --
-SWEP.DamageNear				= 25
+SWEP.DamageNear				= 50
 SWEP.RangeNear				= 50
-SWEP.DamageFar				= 10
+SWEP.DamageFar				= 20
 SWEP.RangeFar				= 300
 SWEP.Force					= 5
 SWEP.Penetration			= 2
