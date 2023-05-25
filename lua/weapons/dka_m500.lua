@@ -5,26 +5,30 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "Remington 870"
-SWEP.Category				= "Urban Coalition"
-SWEP.Description			= [[12 gauge shotgun]]
+SWEP.PrintName				= "M500"
+SWEP.Category				= "Desk Kickers"
+SWEP.Description			= [[Task Force Shotgun]]
 SWEP.Trivia = {
-	"Year",
-	"1950",
-	"Mechanism",
-	"Pump-action",
-	"Country",
-	"United States of America",
-	"Manufacturer",
-	"Remington Arms",
+	"Caliber:",
+	"12 gauge",
+	"Rate of Fire:",
+	"User-dependent",
+	"Mechanism:",
+	"Pump action",
+	"Country of origin:",
+	"United States",
+	"Manufacturer:",
+	"Mossberg",
+	"Year introduced:",
+	"1961",
 }
 SWEP.Slot					= 2
 
 --
 -- Appearance
 --
-SWEP.ViewModel				= "models/weapons/arccw/c_ud_870.mdl"
-SWEP.WorldModel				= "models/weapons/arccw/c_ud_870.mdl"
+SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
+SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
 SWEP.ViewModelFOV			= 72
 
@@ -104,7 +108,7 @@ SWEP.CameraCorrection					= Angle( 0, -90, -90 )
 -- Functionality
 --
 SWEP.Primary.Ammo			= "buckshot"
-SWEP.Primary.ClipSize		= 6
+SWEP.Primary.ClipSize		= 7
 SWEP.ChamberSize			= 1
 SWEP.Delay					= ( 60 / 120 )
 
@@ -118,9 +122,9 @@ SWEP.Firemodes				= {
 }
 SWEP.SwayCorrection = 0.56
 
-SWEP.Accuracy				= 1
+SWEP.Accuracy				= 3
 
-SWEP.Dispersion				= 4
+SWEP.Dispersion				= 5
 SWEP.Dispersion_Air			= 2.4
 SWEP.Dispersion_Move		= 2.4
 SWEP.Dispersion_Crouch		= 0.75
@@ -142,13 +146,13 @@ SWEP.RecoilDecay			= 15
 --
 -- Damage
 --
-SWEP.DamageNear				= ArcCW.UC.StdDmg["12g_p"].max
+SWEP.DamageNear				= 10
 SWEP.RangeNear				= 5
-SWEP.DamageFar				= ArcCW.UC.StdDmg["12g_p"].min
+SWEP.DamageFar				= 2
 SWEP.RangeFar				= 50
 SWEP.Force					= 8
-SWEP.Penetration			= ArcCW.UC.StdDmg["12g_p"].pen
-SWEP.Pellets				= ArcCW.UC.StdDmg["12g_p"].num
+SWEP.Penetration			= 2
+SWEP.Pellets				= 6
 
 SWEP.UniversalAnimationInfo = {
 	bone = "m16_parent",
