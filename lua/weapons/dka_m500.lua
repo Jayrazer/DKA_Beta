@@ -217,6 +217,18 @@ SWEP.Animations				= {
 		},
 		ShotgunReloadingTime = 0.25,
 	},
+	["sgreload_start_empty"] = {
+		Source = "sgreload_start_empty",
+		Time = 1.33,
+		Events = {
+			{s = Ssnd.rottle, 					t = 0},
+			{s = p1 .. "breechload.ogg",		t = 0.05},
+			{s = p1 .. "breechclose.ogg",		t = 0.75},
+		},
+		ShotgunReloadingTime = 1.2,
+		LoadIn = 0.9,
+		AmountToLoad = 1,
+	},
 	["sgreload_insert"] = {
 		Source = "sgreload_insert",
 		Time = 0.6,
@@ -234,18 +246,6 @@ SWEP.Animations				= {
 		Events = {
 			{s = Ssnd.rottle, t = 0},
 			{s = p0 .. "shoulder.ogg",  t = 0.27},
-		},
-		ReloadingTime = 0,
-	},
-	["sgreload_finish_empty"] = {
-		Source = "sgreload_finish_empty",
-		Time = 1.1,
-		Events = {
-			{s = Ssnd.rottle, t = 0.5},
-			{s = p1 .. "rack_1.ogg",  t = 0.3},
-			{s = p1 .. "eject.ogg",  t = 0.4},
-			{s = p1 .. "rack_2.ogg",  t = 0.425},
-			{s = p0 .. "shoulder.ogg",  t = 0.8},
 		},
 		ReloadingTime = 0,
 	},
