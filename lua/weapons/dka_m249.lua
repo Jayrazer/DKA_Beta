@@ -27,14 +27,14 @@ SWEP.Slot					= 3
 --
 -- Appearance
 --
-SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
-SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
+SWEP.ViewModel				= "models/weapons/dka/c_dka_mg_m249.mdl"
+SWEP.WorldModel				= "models/weapons/dka/c_dka_mg_m249.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
-SWEP.ViewModelFOV			= 60
+SWEP.ViewModelFOV			= 70
 
 SWEP.ActivePose = {
-	Pos = Vector( 0.5, -2, -1.75 ),
-	Ang = Angle( 3, 0, 3 )
+	Pos = Vector( 0.5, 0, -0.5 ),
+	Ang = Angle( 0, 0, 0 )
 }
 SWEP.CrouchPose = {
 	Pos = Vector(-2.5, -2, -1.6),
@@ -159,16 +159,8 @@ SWEP.Animations				= {
 	["idle"]	= {
 		Source = "idle",
 	},
-	["idle_empty"]	= {
-		Source = "idle_empty",
-	},
 	["draw"]	= {
 		Source = "draw",
-		ReloadingTime = 0.3,
-		StopSightTime = 0.1,
-	},
-	["draw_empty"]	= {
-		Source = "draw_empty",
 		ReloadingTime = 0.3,
 		StopSightTime = 0.1,
 	},
@@ -177,22 +169,13 @@ SWEP.Animations				= {
 		Time = 0.5,
 		HolsterTime = 0.2,
 	},
-	["holster_empty"]	= {
-		Source = "holster_empty",
-		Time = 0.5,
-		HolsterTime = 0.2,
-	},
 	["fire"]	= {
 		Source = "fire",
 		ShellEjectTime = 0,
 	},
-	["fire_empty"] = {
-		Source = "fire_empty",
-		ShellEjectTime = 0,
-	},
 	["reload"]	= {
 		Source = "reload",
-		Time = 2.4,
+		Time = 210/40,
 		Events = {
 			{ t = 0.1,			s = p0.."magpouch_gear.ogg" },
 			{ t = 0.2,			s = p1.."magout_empty.ogg" },
@@ -213,7 +196,7 @@ SWEP.Animations				= {
 	},
 	["reload_empty"] = {
 		Source = "reload_empty",
-		Time = 2.9,
+		Time = 232/40,
 		Events = {
 			{ t = 0.1,			s = p0.."magpouch_gear.ogg" },
 			{ t = 0.2,			s = p1.."magout_empty.ogg" },
