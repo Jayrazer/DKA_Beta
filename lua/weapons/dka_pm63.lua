@@ -22,7 +22,7 @@ SWEP.Trivia = {
 	"Year introduced:",
 	"1963"
 }
-SWEP.Slot					= 2
+SWEP.Slot					= 1
 
 --
 -- Appearance
