@@ -205,7 +205,7 @@ SWEP.Animations				= {
 			{ t = 1.39,			s = Ssnd.rottle },
 			{ t = 1.9,			s = Ssnd.rattle },
 		},
-		ReloadingTime = 2.0,
+		ReloadingTime = 2.4,
 		LoadIn = 1.5,
 	},
 	["reload_empty"] = {
@@ -227,7 +227,7 @@ SWEP.Animations				= {
 			{ t = 1.39,			s = Ssnd.rottle },
 			{ t = 1.9,			s = Ssnd.rattle },
 		},
-		ReloadingTime = 2.4,
+		ReloadingTime = 2.9,
 		LoadIn = 2.0,
 	},
 }
