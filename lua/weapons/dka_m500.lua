@@ -5,9 +5,9 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "M500"
+SWEP.PrintName				= "M500 PP"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Task Force Shotgun]]
+SWEP.Description			= [[Shotgun]]
 SWEP.Trivia = {
 	"Caliber:",
 	"12 gauge",

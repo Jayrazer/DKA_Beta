@@ -5,9 +5,9 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "AKS74U"
+SWEP.PrintName				= "AKS-74U"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Insurgent Carbine]]
+SWEP.Description			= [[Carbine]]
 SWEP.Trivia = {
 	"Caliber:",
 	"5.45x39mm Soviet",

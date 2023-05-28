@@ -7,7 +7,7 @@ SWEP.Spawnable				= true
 --
 SWEP.PrintName				= "APC9K"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Task Force SMG]]
+SWEP.Description			= [[SMG]]
 SWEP.Trivia = {
 	"Caliber:",
 	"9x19mm Parabellum",

@@ -5,9 +5,9 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "M4"
+SWEP.PrintName				= "M4A1"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Task Force Carbine]]
+SWEP.Description			= [[Carbine]]
 SWEP.Trivia = {
 	"Caliber:",
 	"5.56x45mm NATO",

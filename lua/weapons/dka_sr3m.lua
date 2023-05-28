@@ -5,7 +5,7 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "SR3M"
+SWEP.PrintName				= "SR-3M"
 SWEP.Category				= "Desk Kickers"
 SWEP.Description			= [[Insurgent Carbine]]
 SWEP.Trivia = {

@@ -5,9 +5,9 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "PM63"
+SWEP.PrintName				= "PM-63 RAK"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Insurgent SMG]]
+SWEP.Description			= [[Machine Pistol]]
 SWEP.Trivia = {
 	"Caliber:",
 	"9x18mm Makarov",
@@ -130,9 +130,9 @@ SWEP.SprintTime				= 0.2
 --
 -- Recoil
 --
-SWEP.RecoilUp				= 1
-SWEP.RecoilSide				= 0.25
-SWEP.RecoilPunch			= 1
+SWEP.RecoilUp				= 0.75
+SWEP.RecoilSide				= 0.1
+SWEP.RecoilPunch			= 0.8
 SWEP.RecoilSwing			= 0
 SWEP.RecoilDrift			= 0.75
 SWEP.RecoilDecay			= 10
@@ -146,9 +146,9 @@ SWEP.UniversalAnimationInfo = {
 --
 -- Damage
 --
-SWEP.DamageNear				= 25
+SWEP.DamageNear				= 20
 SWEP.RangeNear				= 50
-SWEP.DamageFar				= 10
+SWEP.DamageFar				= 9
 SWEP.RangeFar				= 300
 SWEP.Force					= 5
 SWEP.Penetration			= 2

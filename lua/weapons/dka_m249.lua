@@ -7,7 +7,7 @@ SWEP.Spawnable				= true
 --
 SWEP.PrintName				= "M249 SPW"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Task Force LMG]]
+SWEP.Description			= [[LMG]]
 SWEP.Trivia = {
 	"Caliber:",
 	"5.56x45mm NATO",

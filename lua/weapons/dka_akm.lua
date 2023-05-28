@@ -7,7 +7,7 @@ SWEP.Spawnable				= true
 --
 SWEP.PrintName				= "AKM"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Insurgent Assault Rifle]]
+SWEP.Description			= [[Assault Rifle]]
 SWEP.Trivia = {
 	"Caliber:",
 	"7.62x39mm Soviet",

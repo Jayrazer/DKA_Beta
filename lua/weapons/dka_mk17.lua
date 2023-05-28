@@ -5,9 +5,9 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "Mk17"
+SWEP.PrintName				= "SCAR Mk 17"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Task Force Battle Rifle]]
+SWEP.Description			= [[Battle Rifle]]
 SWEP.Trivia = {
 	"Caliber:",
 	"7.62x51mm NATO",

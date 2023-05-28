@@ -5,9 +5,9 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "1911"
+SWEP.PrintName				= "M1911"
 SWEP.Category				= "Desk Kickers"
-SWEP.Description			= [[Insurgent Pistol]]
+SWEP.Description			= [[Pistol]]
 SWEP.Trivia = {
 	"Caliber:",
 	".45 ACP",
