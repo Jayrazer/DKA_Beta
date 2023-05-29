@@ -193,7 +193,7 @@ SWEP.Animations				= {
 	},
 	["reload"]	= {
 		Source = "reload",
-		Time = 2.4,
+		Time = 2.6,
 		Events = {
 			{ t = 0.1,			s = p0.."magpouch_gear.ogg" },
 			{ t = 0.2,			s = p1.."magout_empty.ogg" },
@@ -209,12 +209,12 @@ SWEP.Animations				= {
 			{ t = 1.39,			s = Ssnd.rottle },
 			{ t = 1.9,			s = Ssnd.rattle },
 		},
-		ReloadingTime = 2.0,
+		ReloadingTime = 2.5,
 		LoadIn = 1.5,
 	},
 	["reload_empty"] = {
 		Source = "reload_empty",
-		Time = 2.9,
+		Time = 3.1,
 		Events = {
 			{ t = 0.1,			s = p0.."magpouch_gear.ogg" },
 			{ t = 0.2,			s = p1.."magout_empty.ogg" },
@@ -231,7 +231,7 @@ SWEP.Animations				= {
 			{ t = 1.39,			s = Ssnd.rottle },
 			{ t = 1.9,			s = Ssnd.rattle },
 		},
-		ReloadingTime = 2.4,
+		ReloadingTime = 2.9,
 		LoadIn = 2.0,
 	},
 }
