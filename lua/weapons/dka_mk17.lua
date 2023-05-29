@@ -27,17 +27,17 @@ SWEP.Slot					= 2
 --
 -- Appearance
 --
-SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
-SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_74u.mdl"
+SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_mk17std.mdl"
+SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_mk17std.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
 SWEP.ViewModelFOV			= 60
 
 SWEP.ActivePose = {
-	Pos = Vector( 0.5, -2, -1.75 ),
-	Ang = Angle( 3, 0, 3 )
+	Pos = Vector( 0.5, 2.25, -1.25 ),
+	Ang = Angle( 3, 0, 0 )
 }
 SWEP.CrouchPose = {
-	Pos = Vector(-2.5, -2, -1.6),
+	Pos = Vector(-2.5, 0, -1.6),
 	Ang = Angle(0, 0, -8),
 	MidPos = Vector( -0.2, 0, -0.5 ),
 	MidAng = Angle( 0, 0, 0 ),
@@ -95,8 +95,8 @@ SWEP.ShellModel							= "models/weapons/arccw/uc_shells/556x45.mdl"
 SWEP.ShellScale							= 0.5
 SWEP.QCA_Case							= 2
 
-SWEP.QCA_Camera							= 0
-SWEP.CameraCorrection					= Angle( 0, 0, 0 )
+SWEP.QCA_Camera							= 3
+SWEP.CameraCorrection					= Angle( 0, -90, -90 )
 
 --
 -- Functionality
