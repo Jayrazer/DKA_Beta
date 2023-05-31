@@ -5,7 +5,7 @@ SWEP.Spawnable				= true
 --
 -- Description
 --
-SWEP.PrintName				= "M500 PP"
+SWEP.PrintName				= "M1014 JCS"
 SWEP.Category				= "Desk Kickers"
 SWEP.Description			= [[Shotgun]]
 SWEP.Trivia = {
@@ -14,13 +14,13 @@ SWEP.Trivia = {
 	"Rate of Fire:",
 	"User-dependent",
 	"Mechanism:",
-	"Pump action",
+	"Gas-operated",
 	"Country of origin:",
-	"United States",
+	"Italy",
 	"Manufacturer:",
-	"Mossberg",
+	"Benelli",
 	"Year introduced:",
-	"1961",
+	"1999",
 }
 SWEP.Slot					= 3
 
@@ -110,10 +110,10 @@ SWEP.CameraCorrection					= Angle( 0, -90, -90 )
 SWEP.Primary.Ammo			= "buckshot"
 SWEP.Primary.ClipSize		= 7
 SWEP.ChamberSize			= 1
-SWEP.Delay					= ( 60 / 120 )
+SWEP.Delay					= ( 60 / 200 )
 
 SWEP.ShotgunReloading		= true
-SWEP.ManualAction			= 1
+SWEP.ManualAction			= 0
 
 SWEP.Firemodes				= {
 	{
@@ -195,17 +195,17 @@ SWEP.Animations				= {
 		Time = 0.4,
 		HolsterTime = 0.2,
 	},
-	["cycle"]	= {
-		Source = "cycle",
-		Events = {
-			{s = Ssnd.rottle, t = 0},
-			{s = p1 .. "rack_1.ogg",  t = 0},
-			{s = p1 .. "eject.ogg",  t = 0.1},
-			{s = p1 .. "rack_2.ogg",  t = 0.11},
-		},
-		ShellEjectTime = 0.1,
-		CycleDelayTime = 0.3,
-	},
+	--["cycle"]	= {
+		--Source = "cycle",
+		--Events = {
+			--{s = Ssnd.rottle, t = 0},
+			--{s = p1 .. "rack_1.ogg",  t = 0},
+			--{s = p1 .. "eject.ogg",  t = 0.1},
+			--{s = p1 .. "rack_2.ogg",  t = 0.11},
+		--},
+		--ShellEjectTime = 0.1,
+		--CycleDelayTime = 0.3,
+	--},
 	["fire"]	= {
 		Source = "fire",
 		CycleDelayTime = 0.3,
@@ -252,46 +252,7 @@ SWEP.Animations				= {
 }
 
 SWEP.Attachments = {
-	{
-		Name = "Rear Sight",
-		SortOrder = 1.0,
-	},
-	{
-		Name = "Optical Sight",
-		SortOrder = 1.1,
-	},
-	{
-		Name = "Front Sight",
-		SortOrder = 1.2,
-	},
-	{
-		Name = "Barrel",
-		SortOrder = 2.0,
-	},
-	{
-		Name = "Handguard",
-		SortOrder = 2.1,
-	},
-	{
-		Name = "Upper Receiver",
-		SortOrder = 2.2,
-	},
-	{
-		Name = "Lower Receiver",
-		SortOrder = 2.3,
-	},
-	{
-		Name = "Muzzle",
-		SortOrder = 3.0,
-	},
-	{
-		Name = "Tactical",
-		SortOrder = 3.1,
-	},
-	{
-		Name = "Underbarrel",
-		SortOrder = 3.2,
-	},
+
 }
 
 SWEP.Elements = {}
