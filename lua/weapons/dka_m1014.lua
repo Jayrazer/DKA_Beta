@@ -27,13 +27,12 @@ SWEP.Slot					= 3
 --
 -- Appearance
 --
-SWEP.ViewModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
-SWEP.WorldModel				= "models/weapons/dka/c_dka_rif_m4.mdl"
+SWEP.ViewModel				= "models/weapons/dka/c_dka_shot_m1014.mdl"
+SWEP.WorldModel				= "models/weapons/dka/c_dka_shot_m1014.mdl"
 SWEP.VMWMClone				= { Pos = Vector(), Ang = Angle(), Size = Vector() }
 SWEP.ViewModelFOV			= 72
 
 SWEP.DefaultBodygroups = "0 0 0 0 0 0 0 0 1"
-SWEP.DefaultSkin = 1
 
 SWEP.ActivePose = {
 	Pos = Vector( -0.6, -4, 0.25 ),
@@ -212,37 +211,35 @@ SWEP.Animations				= {
 	},
 	["sgreload_start"] = {
 		Source = "sgreload_start",
-		Time = 0.5,
+		Time = 25/40,
 		Events = {
 		},
-		ShotgunReloadingTime = 0.25,
+		ShotgunReloadingTime = 24/40,
 	},
 	["sgreload_start_empty"] = {
 		Source = "sgreload_start_empty",
-		Time = 1.33,
+		Time = 53/40,
 		Events = {
 			{s = Ssnd.rottle, 					t = 0},
 			{s = p1 .. "breechload.ogg",		t = 0.05},
 			{s = p1 .. "breechclose.ogg",		t = 0.75},
 		},
-		ShotgunReloadingTime = 1.2,
-		LoadIn = 0.9,
 		AmountToLoad = 1,
 	},
 	["sgreload_insert"] = {
 		Source = "sgreload_insert",
-		Time = 0.6,
+		Time = 30/40,
 		Events = {
 			{s = Ssnd.rottle, t = 0},
 			{s = shellin, t = 0.05},
 		},
 		LoadIn = 0.2,
 		AmountToLoad = 1,
-		ShotgunReloadingTime = 0.5,
+		ShotgunReloadingTime = 0.70,
 	},
 	["sgreload_finish"] = {
 		Source = "sgreload_finish",
-		Time = 0.5,
+		Time = 35/40,
 		Events = {
 			{s = Ssnd.rottle, t = 0},
 			{s = p0 .. "shoulder.ogg",  t = 0.27},
