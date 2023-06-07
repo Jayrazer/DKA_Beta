@@ -58,40 +58,37 @@ SWEP.HoldTypeSight			= "rpg"
 SWEP.HoldTypeSprint			= "passive"
 
 local p0 = ")arccw_uc/common/"
-local p1 = ")weapons/arccw_ud/870/"
+local p1 = ")weapons/shotgun/"
 local tail = ")/arccw_uc/common/12ga/"
 SWEP.Sound_Blast			= {
-	{ s = p1.."fire-01.ogg" },
-	{ s = p1.."fire-02.ogg" },
-	{ s = p1.."fire-03.ogg" },
-	{ s = p1.."fire-04.ogg" },
-	{ s = p1.."fire-05.ogg" },
-	{ s = p1.."fire-06.ogg" },
+	{ s = p1.."shotgun_fire_01.wav" },
+	{ s = p1.."shotgun_fire_02.wav" },
+	{ s = p1.."shotgun_fire_03.wav" }
 }
-SWEP.Sound_Mech				= {
-	{ s = p1.."mech-01.ogg" },
-	{ s = p1.."mech-02.ogg" },
-	{ s = p1.."mech-03.ogg" },
-	{ s = p1.."mech-04.ogg" },
-	{ s = p1.."mech-05.ogg" },
-	{ s = p1.."mech-06.ogg" },
-}
-SWEP.Sound_TailEXT				= {
-	{ s = tail.."fire-dist-12ga-pasg-ext-01.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-ext-02.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-ext-03.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-ext-04.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-ext-05.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-ext-06.ogg" },
-}
-SWEP.Sound_TailINT				= {
-	{ s = tail.."fire-dist-12ga-pasg-int-01.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-int-02.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-int-03.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-int-04.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-int-05.ogg" },
-	{ s = tail.."fire-dist-12ga-pasg-int-06.ogg" },
-}
+--SWEP.Sound_Mech				= {
+	--{ s = p1.."mech-01.ogg" },
+	--{ s = p1.."mech-02.ogg" },
+	--{ s = p1.."mech-03.ogg" },
+	--{ s = p1.."mech-04.ogg" },
+	--{ s = p1.."mech-05.ogg" },
+	--{ s = p1.."mech-06.ogg" },
+--}
+--SWEP.Sound_TailEXT				= {
+	--{ s = tail.."fire-dist-12ga-pasg-ext-01.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-ext-02.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-ext-03.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-ext-04.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-ext-05.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-ext-06.ogg" },
+--}
+--SWEP.Sound_TailINT				= {
+	--{ s = tail.."fire-dist-12ga-pasg-int-01.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-int-02.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-int-03.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-int-04.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-int-05.ogg" },
+	--{ s = tail.."fire-dist-12ga-pasg-int-06.ogg" },
+--}
 
 SWEP.MuzzleEffect						= "muzzleflash_shotgun"
 SWEP.QCA_Muzzle							= 1
